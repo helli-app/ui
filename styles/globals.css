@@ -1,5 +1,31 @@
 @import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind screens;
+
+@layer base {
+  body {
+    @apply text-gray-800;
+  }
+
+  h1 {
+    @apply text-3xl;
+    @apply font-bold;
+    @apply py-8;
+  }
+
+  h2 {
+    @apply text-2xl;
+    @apply font-bold;
+    @apply py-6;
+  }
+
+  h3 {
+    @apply text-xl;
+    @apply font-bold;
+    @apply py-4;
+  }
+}
